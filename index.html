@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Clone - Atividade</title>
+    <link rel="stylesheet" href="css/tiktok.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="mobile-header">
+        <span class="material-icons">menu</span>
+        <div class="tabs">
+            <span>Seguindo</span>
+            <span class="active">Para você</span>
+        </div>
+        <span class="material-icons">search</span>
+    </header>
+
+    <header class="desktop-header">
+        <div class="logo-area">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar">
+            <span class="material-icons">search</span>
+        </div>
+        <div class="header-actions">
+            <button class="btn-upload">+ Carregar</button>
+            <span class="material-icons">send</span>
+            <span class="material-icons">notifications</span>
+            <img src="imagens/perfil.jpg" class="avatar-sm" alt="Perfil">
+        </div>
+    </header>
+
+    <div class="layout-container">
+        
+        <aside class="sidebar">
+            <nav>
+                <a href="#" class="active"><span class="material-icons">home</span> Para você</a>
+                <a href="#"><span class="material-icons">explore</span> Explorar</a>
+                <a href="#"><span class="material-icons">people</span> Seguindo</a>
+                <a href="#"><span class="material-icons">live_tv</span> LIVE</a>
+                <hr>
+                <p class="section-title">Contas que você segue</p>
+                <div class="user-list">
+                    <div class="user-item">
+                        <img src="imagens/user1.jpg" alt="User">
+                        <span>LUMAI STORE</span>
+                    </div>
+                    <div class="user-item">
+                        <img src="imagens/user2.jpg" alt="User">
+                        <span>Rita Lobo</span>
+                    </div>
+                    <div class="user-item">
+                        <img src="imagens/user3.jpg" alt="User">
+                        <span>gemeasdokarate</span>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+
+        <main>
+            
+            <section class="stories-carousel">
+                <div class="story-item">
+                    <div class="circle-img"><img src="imagens/story1.jpg" alt=""></div>
+                    <span>hurley</span>
+                </div>
+                <div class="story-item">
+                    <div class="circle-img"><img src="imagens/story2.jpg" alt=""></div>
+                    <span>samant...</span>
+                </div>
+                <div class="story-item">
+                    <div class="circle-img"><img src="imagens/story3.jpg" alt=""></div>
+                    <span>segue_o...</span>
+                </div>
+                <div class="story-item">
+                    <div class="circle-img"><img src="imagens/story4.jpg" alt=""></div>
+                    <span>gloriaw...</span>
+                </div>
+            </section>
+
+            <div class="video-feed">
+                <div class="video-card">
+                    
+                    <div class="video-content">
+                        <img src="imagens/print-video-wsl.jpg" alt="Vídeo WSL" class="video-bg">
+                        
+                        <div class="actions-sidebar">
+                            <div class="action-btn profile-btn">
+                                <img src="imagens/wsl-logo.jpg" alt="Perfil">
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="action-btn">
+                                <span class="material-icons">favorite</span>
+                                <span class="count">90</span>
+                            </div>
+                            <div class="action-btn">
+                                <span class="material-icons">chat_bubble</span>
+                                <span class="count">3</span>
+                            </div>
+                            <div class="action-btn">
+                                <span class="material-icons">share</span>
+                                <span class="count">Compart...</span>
+                            </div>
+                            <div class="music-disc">
+                                <img src="imagens/perfil.jpg" alt="Music">
+                            </div>
+                        </div>
+
+                        <div class="video-info">
+                            <h3>WSL Brasil <span class="verified">blue_check</span></h3>
+                            <p>O chefe convocou! Quero ver desobedecer... 😎</p>
+                            <div class="music-ticker">
+                                <span class="material-icons">music_note</span> som original - WSL Brasil
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="mobile-nav">
+        <div class="nav-item active">
+            <span class="material-icons">home</span>
+            <span>Início</span>
+        </div>
+        <div class="nav-item">
+            <span class="material-icons">search</span>
+            <span>Descobrir</span>
+        </div>
+        <div class="nav-item add-button">
+            <div class="btn-plus">
+                <span class="material-icons">add</span>
+            </div>
+        </div>
+        <div class="nav-item">
+            <span class="material-icons">chat_bubble_outline</span>
+            <span>Caixa de...</span>
+        </div>
+        <div class="nav-item">
+            <span class="material-icons">person_outline</span>
+            <span>Perfil</span>
+        </div>
+    </footer>
+
+</body>
+</html>
